@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Julian Mahecha - Sistemas Operativos TimeLine</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Slides -->
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/blood.css" id="theme">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="red-lighten-4" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="http://julianmahecha.me" class="brand-logo white-text">
+        < Jm />
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="https://github.com/JulianMahecha"><i class="material-icons fab fa-github white-text "></i></a></li>
+        <li><a href="https://www.instagram.com/lxestebanxl/"><i
+              class="material-icons fab fa-instagram white-text"></i></a></li>
+      </ul>
+
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="https://github.com/JulianMahecha"><i class="material-icons fab fa-github grey-text ">
+              Github</i></a></li>
+        <li><a href="https://www.instagram.com/lxestebanxl/"><i class="material-icons fab fa-instagram grey-text">
+              Instagram</i></a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <!-- Content -->
+
+  <div class="reveal">
+    <div class="slides">
+
+      <section>
+        <h2>Sistemas Operativos</h2>
+        <h4>Linea de Tiempo</h4>
+        <p>
+          <small>Creado por <a href="http://hakim.se">Julian Mahecha</a></small>
+        </p>
+        <img src="img/sos.png" height="238">
+      </section>
+      <section>
+        <h3>Hello There</h3>
+        <p>
+          reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you
+          examples of what it can do.
+        </p>
+      </section>
+
+    </div>
+  </div>
+
+  <!--  Scripts-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <!-- Slide -->
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.js"></script>
+
+  <script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+
+      transition: 'concave', // none/fade/slide/convex/concave/zoom
+
+      // More info https://github.com/hakimel/reveal.js#dependencies
+      dependencies: [{
+          src: 'lib/js/classList.js',
+          condition: function () {
+            return !document.body.classList;
+          }
+        },
+        {
+          src: 'plugin/markdown/marked.js',
+          condition: function () {
+            return !!document.querySelector('[data-markdown]');
+          }
+        },
+        {
+          src: 'plugin/markdown/markdown.js',
+          condition: function () {
+            return !!document.querySelector('[data-markdown]');
+          }
+        },
+        {
+          src: 'plugin/highlight/highlight.js',
+          async: true,
+          callback: function () {
+            hljs.initHighlightingOnLoad();
+          }
+        },
+        {
+          src: 'plugin/search/search.js',
+          async: true
+        },
+        {
+          src: 'plugin/zoom-js/zoom.js',
+          async: true
+        },
+        {
+          src: 'plugin/notes/notes.js',
+          async: true
+        }
+      ]
+    });
+  </script>
+</body>
+
+</html>
